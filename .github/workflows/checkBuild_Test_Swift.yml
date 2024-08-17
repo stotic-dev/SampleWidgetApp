@@ -63,7 +63,6 @@ jobs:
           -scheme WeatherWatcher
           -sdk iphonesimulator
           -configuration Debug
-          -resolvePackageDependencies
           -clonedSourcePackagesDirPath SourcePackages
           -scmProvider xcode
           build |
