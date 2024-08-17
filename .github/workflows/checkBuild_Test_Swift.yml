@@ -59,8 +59,8 @@ jobs:
       - name: Xcode build
         run: set -o pipefail &&
           xcodebuild
-          -workspace ./Macho/Macho.xcworkspace
-          -scheme Macho
+          -workspace ./WeatherWatcher/WeatherWatcher.xcworkspace
+          -scheme WeatherWatcher
           -sdk iphonesimulator
           -configuration Debug
           -resolvePackageDependencies
