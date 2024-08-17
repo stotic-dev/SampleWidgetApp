@@ -1,0 +1,2 @@
+# SampleWidgetApp
+Widgetのサンプルアプリ
